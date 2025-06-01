@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+#export-btn {
+  background: #04ab46;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#cell-status {
+  font-weight: bold;
+}
+
+#spreadsheet-container {
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.cell {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #e0e0e0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.row-header {
+  background-color: #d9edf7;
+  text-align: center;
+}
+
+.selected {
+  background-color: #b3e5fc !important;
+}
+
+.cell[contenteditable]:focus {
+  outline: 2px solid #42a5f5;
+}
